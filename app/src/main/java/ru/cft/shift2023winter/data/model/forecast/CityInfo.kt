@@ -1,6 +1,6 @@
 package ru.cft.shift2023winter.data.model.forecast
 
-import ru.cft.shift2023winter.data.DefaultValues
+import ru.cft.shift2023winter.DefaultValues
 import java.time.LocalDateTime
 
 data class CityInfo(

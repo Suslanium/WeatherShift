@@ -9,6 +9,7 @@ class LocationConverter {
         from.name,
         from.local_names,
         from.country,
+        from.state,
         MapCoordinates(from.lat,from.lon)
     )
 }

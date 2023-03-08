@@ -16,7 +16,7 @@ import java.time.LocalDateTime
 import java.util.concurrent.TimeUnit
 
 const val BASE_URL = "https://api.openweathermap.org/"
-const val API_KEY = "553e5b5cc02553e3840c00fc34f6f676"
+const val API_KEY = "INSERT_YOUR_API_KEY_HERE"
 const val CALL_TIMEOUT = 10L
 const val READ_TIMEOUT = 10L
 const val CONNECT_TIMEOUT = 10L

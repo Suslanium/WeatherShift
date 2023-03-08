@@ -4,5 +4,6 @@ data class Location(
     val city: String,
     val localNames: HashMap<String, String>,
     val countryCode: String,
+    val state: String,
     val mapCoordinates: MapCoordinates
 )

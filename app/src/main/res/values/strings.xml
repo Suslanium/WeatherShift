@@ -1,3 +1,45 @@
 <resources>
-	<string name="app_name">SHIFT 2023 Winter</string>
+	<string name="app_name">Weather</string>
+	<string name="feels_like">Feels like</string>
+	<string name="pressure">Pressure</string>
+	<string name="humidity">Humidity</string>
+	<string name="visibility">Visibility</string>
+	<string name="wind_speed">Wind speed</string>
+	<string name="wind_direction">Wind direction</string>
+	<string name="wind_gust">Gust speed</string>
+	<string name="cloudiness">Cloudiness</string>
+	<string name="rain_volume_hour">Rain, 1 h.</string>
+	<string name="rain_volume_3h">Rain, 3 h.</string>
+	<string name="snow_volume_hour">Snow, 1 h.</string>
+	<string name="snow_volume_3h">Snow, 3 h.</string>
+	<string name="sunrise_time">Sunrise</string>
+	<string name="sunset_time">Sunset</string>
+	<string name="pressure_value">%1$d hPa</string>
+	<string name="visibility_value">%1$.1f km</string>
+	<string name="wind_speed_value_default_metric">%1$.1f m/s</string>
+	<string name="wind_speed_value_imperial">%1$.1f mph</string>
+	<string name="temp_value_default" translatable="false">%1$dK</string>
+	<string name="temp_value_metric" translatable="false">%1$d°C</string>
+	<string name="temp_value_imperial" translatable="false">%1$d°F</string>
+	<string name="percent_value" translatable="false">%1$d %</string>
+	<string name="wind_dir_north">N</string>
+	<string name="wind_dir_east">E</string>
+	<string name="wind_dir_south">S</string>
+	<string name="wind_dir_west">W</string>
+	<string name="wind_dir_nw">NW</string>
+	<string name="wind_dir_ne">NE</string>
+	<string name="wind_dir_sw">SW</string>
+	<string name="wind_dir_se">SE</string>
+	<string name="precipitation_volume_value">%1$.1f mm</string>
+	<string name="placeholder" translatable="false">--</string>
+    <string name="monday">Monday</string>
+	<string name="tuesday">Tuesday</string>
+	<string name="wednesday">Wednesday</string>
+	<string name="thursday">Thursday</string>
+	<string name="friday">Friday</string>
+	<string name="saturday">Saturday</string>
+	<string name="sunday">Sunday</string>
+	<string name="enter_location">Enter your location name</string>
+	<string name="forecast">Forecast</string>
+	<string name="updated">Updated at %1$s</string>
 </resources>

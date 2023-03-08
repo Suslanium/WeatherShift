@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+    <string name="feels_like">Ощущается как</string>
+    <string name="pressure">Давление</string>
+    <string name="humidity">Влажность</string>
+    <string name="visibility">Видимость</string>
+    <string name="wind_speed">Скорость ветра</string>
+    <string name="wind_direction">Направление ветра</string>
+    <string name="wind_gust">Порывы ветра</string>
+    <string name="cloudiness">Облачность</string>
+    <string name="rain_volume_hour">Дождь, 1ч.</string>
+    <string name="rain_volume_3h">Дождь, 3ч.</string>
+    <string name="snow_volume_hour">Снег, 1ч.</string>
+    <string name="snow_volume_3h">Снег, 3ч.</string>
+    <string name="sunrise_time">Восход</string>
+    <string name="sunset_time">Закат</string>
+    <string name="pressure_value">%1$d гПа</string>
+    <string name="visibility_value">%1$.1f км</string>
+    <string name="wind_speed_value_default_metric">%1$.1f м/с</string>
+    <string name="wind_speed_value_imperial">%1$.1f м/ч</string>
+    <string name="wind_dir_north">С</string>
+    <string name="wind_dir_east">В</string>
+    <string name="wind_dir_south">Ю</string>
+    <string name="wind_dir_west">З</string>
+    <string name="wind_dir_nw">СЗ</string>
+    <string name="wind_dir_ne">СВ</string>
+    <string name="wind_dir_sw">ЮЗ</string>
+    <string name="wind_dir_se">ЮВ</string>
+    <string name="precipitation_volume_value">%1$.1f мм</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+    <string name="enter_location">Введите название города</string>
+    <string name="forecast">Прогноз</string>
+    <string name="updated">Обновлено в %1$s</string>
+</resources>

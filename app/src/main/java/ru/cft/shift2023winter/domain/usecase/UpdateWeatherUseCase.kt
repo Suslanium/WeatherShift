@@ -9,21 +9,13 @@ class UpdateWeatherUseCase(
     private val weatherRepository: WeatherRepository,
     private val settingsRepository: SettingsRepository
 ) {
-    suspend operator fun invoke() : Result<Weather> {
+    suspend operator fun invoke(): Weather {
         val settings = settingsRepository.getSettings()
-        val currentLocation = settings.location
-            ?: return Result.failure(Exception("Current location not set"))
-        return try {
-            val result = weatherRepository.updateCurrentWeather(
-                WeatherRequestParams(
-                    currentLocation.mapCoordinates,
-                    settings.unitType,
-                    settings.languageCode
-                )
+        val currentLocation = settings.location ?: throw Exception("Current location not set")
+        return weatherRepository.updateCurrentWeather(
+            WeatherRequestParams(
+                currentLocation.mapCoordinates, settings.unitType, settings.languageCode
             )
-            Result.success(result)
-        } catch (e: Exception) {
-            Result.failure(e)
-        }
+        )
     }
 }

@@ -1,6 +1,6 @@
 package ru.cft.shift2023winter.data.converter
 
-import ru.cft.shift2023winter.data.DefaultValues
+import ru.cft.shift2023winter.DefaultValues
 import ru.cft.shift2023winter.data.model.forecast.ForecastModel
 import ru.cft.shift2023winter.domain.entity.Forecast
 import ru.cft.shift2023winter.domain.entity.Weather

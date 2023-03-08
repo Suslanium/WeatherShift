@@ -13,15 +13,13 @@ class GeoCodingDataSourceImpl(
 ) : GeoCodingDataSource {
     override suspend fun getLocationsByCoordinates(mapCoordinates: MapCoordinates): List<Location> {
         val response = geoCodingApi.getLocationsByCoordinates(
-            mapCoordinates.latitude,
-            mapCoordinates.longitude,
-            apiKey.apiKey
+            mapCoordinates.latitude, mapCoordinates.longitude, apiKey.apiKey, 10
         )
         return response.map { locationConverter.convert(it) }
     }
 
     override suspend fun getLocationsByName(name: String): List<Location> {
-        val response = geoCodingApi.getLocationsByName(name, apiKey.apiKey)
+        val response = geoCodingApi.getLocationsByName(name, apiKey.apiKey, 10)
         return response.map { locationConverter.convert(it) }
     }
 }

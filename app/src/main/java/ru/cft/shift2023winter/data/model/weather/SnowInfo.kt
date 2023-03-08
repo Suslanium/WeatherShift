@@ -1,7 +1,7 @@
 package ru.cft.shift2023winter.data.model.weather
 
 import com.google.gson.annotations.SerializedName
-import ru.cft.shift2023winter.data.DefaultValues
+import ru.cft.shift2023winter.DefaultValues
 
 data class SnowInfo(
     @field:SerializedName("1h")

@@ -8,13 +8,15 @@ interface GeoCodingApi {
     @GET("geo/1.0/direct")
     suspend fun getLocationsByName(
         @Query("q") locationName: String,
-        @Query("appid") apiKey: String
+        @Query("appid") apiKey: String,
+        @Query("limit") sizeLimit: Int
     ): List<LocationModel>
 
     @GET("geo/1.0/reverse")
     suspend fun getLocationsByCoordinates(
         @Query("lat") latitude: Double,
         @Query("lon") longitude: Double,
-        @Query("appid") apiKey: String
+        @Query("appid") apiKey: String,
+        @Query("limit") sizeLimit: Int
     ): List<LocationModel>
 }
